@@ -1,0 +1,38 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.3rem;
+    max-width: 375px;
+    border-radius: 0.75rem;
+}
+
+.card__img {
+    width: 375px;
+    height: auto;
+    border-radius: 0.75rem;
+}
+
+.card__content {
+    padding: 1rem 2rem;
+}
+
+.card__title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.card__text {
+    font-weight: 300;
+    text-align: center;
+}
